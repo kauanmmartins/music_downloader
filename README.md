@@ -1,34 +1,34 @@
 # YouTube to MP3 Downloader 🎵
 
-Um script em Python simples e eficiente para baixar o áudio de vídeos do YouTube e convertê-los automaticamente para o formato MP3 com alta qualidade.
+A simple and efficient Python script to download audio from YouTube videos and automatically convert them to high-quality MP3 format.
 
-## Funcionalidades
+## Features
 
-- Baixa apenas o áudio (economiza dados e tempo).
-- Conversão automática para `.mp3` via FFmpeg.
-- Nomeia o arquivo automaticamente com o título do vídeo.
-- Compatível com as atualizações mais recentes do YouTube (via `yt-dlp`).
+- **Audio-only download:** Saves time and data by fetching only the audio stream.
+- **Automatic Conversion:** Converts files to `.mp3` seamlessly using FFmpeg.
+- **Auto-naming:** Files are automatically named based on the YouTube video title.
+- **Up-to-date:** Powered by `yt-dlp` to ensure compatibility with the latest YouTube updates.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de começar, você precisará ter instalado em sua máquina:
+Before running the script, ensure you have the following installed:
 
 1.  **Python 3.x**
-2.  **FFmpeg**: Essencial para a conversão de áudio.
-    - *Dica:* Certifique-se de que o FFmpeg esteja no seu PATH do sistema.
-3.  **Node.js** (Opcional, mas recomendado): Ajuda o script a lidar com as proteções de JavaScript do YouTube.
+2.  **FFmpeg**: Essential for audio conversion.
+    - *Tip:* Make sure FFmpeg is added to your system's PATH.
+3.  **Node.js** (Optional but recommended): Helps the script handle YouTube's JavaScript-based protections.
 
-## 📦 Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 
-2. Entre na pasta do projeto:
-  cd NOME_DO_REPOSITORIO
+2. Navigate to the project folder:
+    cd YOUR_REPOSITORY_NAME
 
-3. Instale a biblioteca necessária:
-  pip install yt-dlp
+3. Install the required library:
+    pip install yt-dlp
 
-4. Rode normalmente:
-  python baixar_musica.py
+4. Run the script:
+    python baixar_musica.py
