@@ -3,7 +3,7 @@ import yt_dlp
 
 def baixar_mp3(url):
     ydl_opts = {
-        "format": "ba/b",  # Tenta baixar o melhor áudio disponível
+        "format": "ba/b",  # Triest to download the best audio format available
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
@@ -20,13 +20,13 @@ def baixar_mp3(url):
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print("Iniciando download...")
+            print("Starting download...")
             ydl.download([url])
-            print("\nDownload concluído com sucesso!")
+            print("\nThe download is complete!")
     except Exception as e:
-        print(f"Ocorreu um erro: {e}")
+        print(f"An error was found: {e}")
 
 
 if __name__ == "__main__":
-    link = input("Cole o link do vídeo do YouTube: ")
+    link = input("Enter the URL of the YouTube video you want to download as MP3: ")
     baixar_mp3(link)
