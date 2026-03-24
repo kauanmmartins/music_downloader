@@ -5,6 +5,7 @@ A simple and efficient Python script to download audio from YouTube videos and a
 ## Features
 
 - **Audio-only download:** Saves time and data by fetching only the audio stream.
+- **Accepts multiple links:** You can download a list of videos if you want.
 - **Automatic Conversion:** Converts files to `.mp3` seamlessly using FFmpeg.
 - **Auto-naming:** Files are automatically named based on the YouTube video title.
 - **Up-to-date:** Powered by `yt-dlp` to ensure compatibility with the latest YouTube updates.
