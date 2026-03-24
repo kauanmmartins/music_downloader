@@ -3,7 +3,7 @@ import yt_dlp
 
 def baixar_mp3(urls):
     ydl_opts = {
-        "format": "ba/b",  # Triest to download the best audio format available
+        "format": "ba/b",  # Tries to download the best audio format available
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
